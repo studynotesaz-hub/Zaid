@@ -1,37 +1,20 @@
-# ZAID | The Architect of Detail
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A premium, immersive portfolio experience crafted with React, TypeScript, and Framer Motion.
-Designed with a focus on minute details, kinetic typography, and "butter smooth" interaction.
+# Run and deploy your AI Studio app
 
-## The Philosophy
+This contains everything you need to run your app locally.
 
-"I don't just build. I sculpt digital experiences."
+View your app in AI Studio: https://ai.studio/apps/drive/13NeAShLE3XG2k879MbSfivL643mANvB-
 
-This project is a visual manifesto, moving away from standard templates into the realm of digital art. It features high-end animations, atmospheric noise textures, and a dark-themed premium aesthetic.
+## Run Locally
 
-## Features
+**Prerequisites:**  Node.js
 
-- **Kinetic Typography**: Smooth, physics-based text reveals.
-- **Signature Preloader**: Custom SVG handwriting animation.
-- **Custom Cursor**: Fluid, lag-based cursor interaction.
-- **Atmospheric Noise**: Global grain overlay for cinematic texture.
-- **Responsive**: Fully optimized for an immersive experience on all devices.
-
-## Local Development
 
 1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-## Tech Stack
-
-- React 18
-- TypeScript
-- Tailwind CSS
-- Framer Motion
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
